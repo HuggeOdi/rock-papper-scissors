@@ -49,12 +49,8 @@ for i in range(length):
         else:
             print("Draw")
             
-   # plt.plot(xlist, ylist, '.', markersize = 1, label = "How many times player wins")
-   # plt.plot(xlist, ylist, '.', markersize = 1, label = "How many times computer wins")
-   # plt.xlabel("X")
-   # plt.ylabel("Y")
-   # plt.legend()
-            
+plt.plot(range(len(ylist)), ylist, '.', markersize = 1, label = "How many times player wins")
+   
 
 
     
